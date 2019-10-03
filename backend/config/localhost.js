@@ -14,12 +14,12 @@ module.exports = {
 
   email: {
     comment: 'See https://nodemailer.com',
-    from: 'adminDaradja@gmail.com',
+    from: '<votre email>',
     host: 'smtp.sendgrid.net',
     port: 587,
     auth: {
       user: 'apikey',
-      pass: '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',
+      pass: '<votre clé API ici>',
     },
   },
 
@@ -28,7 +28,7 @@ module.exports = {
   clientUrl:
     'http://localhost:3000',
 
-  defaultUser: 'orquideamarques89@gmail.com',
+  defaultUser: '<votre email>',
 
   uploadDir: os.tmpdir(),
 
